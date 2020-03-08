@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_test_test_comps",
+  "info": {
+    "name": "test comp",
+    "icon": "crosshairs"
+  },
+  "options": {},
+  "attributes": {
+    "title_x": {
+      "type": "string"
+    }
+  }
+}
