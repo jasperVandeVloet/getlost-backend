@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_journey_checkpoints",
+  "info": {
+    "name": "Checkpoint",
+    "icon": "map-marked-alt"
+  },
+  "options": {},
+  "attributes": {
+    "Latitude": {
+      "type": "float",
+      "required": true
+    },
+    "Longitude": {
+      "type": "float",
+      "required": true
+    },
+    "Title": {
+      "type": "string"
+    }
+  }
+}

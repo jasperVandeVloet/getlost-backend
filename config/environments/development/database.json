@@ -4,11 +4,21 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "sqlite",
-        "filename": ".tmp/data.db"
+        "client": "mysql",
+        "database": "ID211210_getlost",
+        "host": "ID211210_getlost.db.webhosting.be",
+        "port": 3306,
+        "username": "ID211210_getlost",
+        "password": "88Combell07"
       },
       "options": {
-        "useNullAsDefault": true
+        "pool": {
+          "min": 0,
+          "max": 15,
+          "idleTimeoutMillis": 30000,
+          "createTimeoutMillis": 30000,
+          "acquireTimeoutMillis": 30000
+        }
       }
     }
   }
