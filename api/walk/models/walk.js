@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `journey` model.
+ * Lifecycle callbacks for the `walk` model.
  */
 
 module.exports = {

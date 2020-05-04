@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/journeys",
-      "handler": "journey.find",
+      "path": "/walks",
+      "handler": "walk.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/journeys/count",
-      "handler": "journey.count",
+      "path": "/walks/count",
+      "handler": "walk.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/journeys/:id",
-      "handler": "journey.findOne",
+      "path": "/walks/:id",
+      "handler": "walk.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/journeys",
-      "handler": "journey.create",
+      "path": "/walks",
+      "handler": "walk.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/journeys/:id",
-      "handler": "journey.update",
+      "path": "/walks/:id",
+      "handler": "walk.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/journeys/:id",
-      "handler": "journey.delete",
+      "path": "/walks/:id",
+      "handler": "walk.delete",
       "config": {
         "policies": []
       }

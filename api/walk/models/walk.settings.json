@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "walk",
+  "info": {
+    "name": "Walk"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "difficulty": {
+      "type": "integer",
+      "max": 5,
+      "min": 0
+    },
+    "wheelchair_friendly": {
+      "type": "boolean"
+    },
+    "kids_friendly": {
+      "type": "boolean"
+    },
+    "checkpoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "walk.checkpoint"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
