@@ -25,13 +25,19 @@
     "kids_friendly": {
       "type": "boolean"
     },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
     "checkpoint": {
       "type": "component",
       "repeatable": true,
       "component": "walk.checkpoint"
     },
-    "description": {
-      "type": "richtext",
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
       "required": true
     }
   }
