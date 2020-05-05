@@ -39,6 +39,11 @@
       "via": "related",
       "plugin": "upload",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     }
   }
 }
