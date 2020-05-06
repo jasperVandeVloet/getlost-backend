@@ -34,7 +34,7 @@
       "repeatable": true,
       "component": "walk.checkpoint"
     },
-    "thumbnail": {
+    "image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
@@ -43,6 +43,22 @@
     "slug": {
       "type": "uid",
       "targetField": "title",
+      "required": true
+    },
+    "Province": {
+      "type": "enumeration",
+      "enum": [
+        "antwerpen",
+        "limburg",
+        "oost_vlaanderen",
+        "west_vlaanderen",
+        "vlaams_brabant",
+        "waals_brabant",
+        "henegouwen",
+        "luik",
+        "luxemburg",
+        "namen"
+      ],
       "required": true
     }
   }
