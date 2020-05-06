@@ -18,7 +18,7 @@
     },
     {
       "method": "GET",
-      "path": "/walks/:id",
+      "path": "/walks/:slug",
       "handler": "walk.findOne",
       "config": {
         "policies": []
