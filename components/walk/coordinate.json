@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "components_walk_coordinates",
+  "info": {
+    "name": "coordinate",
+    "icon": "drafting-compass"
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "float",
+      "required": true
+    },
+    "longitude": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

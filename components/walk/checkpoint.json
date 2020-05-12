@@ -11,14 +11,6 @@
       "type": "string",
       "required": true
     },
-    "latitude": {
-      "type": "float",
-      "required": true
-    },
-    "longitude": {
-      "type": "float",
-      "required": true
-    },
     "description": {
       "type": "richtext",
       "required": true
@@ -28,6 +20,12 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "coordinate": {
+      "type": "component",
+      "repeatable": false,
+      "component": "walk.coordinate",
+      "required": true
     }
   }
 }
