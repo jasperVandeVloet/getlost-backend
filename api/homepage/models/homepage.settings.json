@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "homepages",
+  "info": {
+    "name": "homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "quote": {
+      "type": "string",
+      "required": true
+    },
+    "blog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blueprint.blog"
+    },
+    "introduction": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

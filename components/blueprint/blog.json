@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "components_blueprint_blogs",
+  "info": {
+    "name": "blog",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blueprint.cta",
+      "required": false
+    }
+  }
+}
