@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "how-it-works",
+  "info": {
+    "name": "How it works"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "header": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
