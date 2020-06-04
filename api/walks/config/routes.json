@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/walks",
+      "handler": "walks.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/walks",
+      "handler": "walks.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/walks",
+      "handler": "walks.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
