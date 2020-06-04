@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/walks",
-      "handler": "walks.find",
+      "path": "/walkspage",
+      "handler": "walkspage.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/walks",
-      "handler": "walks.update",
+      "path": "/walkspage",
+      "handler": "walkspage.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/walks",
-      "handler": "walks.delete",
+      "path": "/walkspage",
+      "handler": "walkspage.delete",
       "config": {
         "policies": []
       }

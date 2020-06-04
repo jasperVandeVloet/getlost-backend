@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `walks` model.
+ * Lifecycle callbacks for the `walkspage` model.
  */
 
 module.exports = {

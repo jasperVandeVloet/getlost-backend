@@ -1,9 +1,9 @@
 {
   "kind": "singleType",
   "connection": "default",
-  "collectionName": "walks",
+  "collectionName": "walkspages",
   "info": {
-    "name": "walks"
+    "name": "walkspage"
   },
   "options": {
     "increments": true,
@@ -20,7 +20,7 @@
       "type": "string",
       "required": true
     },
-    "description": {
+    "introduction": {
       "type": "richtext"
     }
   }
